@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/icon.png">
+	<link rel="stylesheet" href="style.css">
+	<title>Calculator App | ITC 123 Applications Dev't & Emerging Tech.</title>
+</head>
+<body>
+	<header id="home">
+		<div class="max-width">
+			<nav>
+				<div class="nav-left">
+					<img src="images/icon.png" alt="Calculator App Logo">
+				
+					<h1>Calculator</h1>
+				</div>
+				
+				<div class="nav-links">
+					<ul>
+						<li>
+							<a href="#home">
+								Home
+							</a>
+						</li>
+						
+						<li>
+							<a href="#features">
+								Features
+							</a>
+						</li>
+						
+						<li>
+							<a href="#download">
+								Download
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+				<button class="ctaBtn" type="button">
+					<a href="app/BasicCalculator.apk" download>Download App</a>
+				</button>
+				
+				<button class="hamburger" type="button" aria-label="Open menu">
+	☰
+</button>
+			</nav>
+			
+			<div class="mobile-menu">
+	<a href="#home">Home</a>
+	<a href="#features">Features</a>
+	<a href="#download">Download</a>
+
+	<a href="app/BasicCalculator.apk" class="mobile-download" download>
+		Download App
+	</a>
+</div>
+		</div>
+	</header>
+	
+	<main>
+		<section class="hero">
+			<div class="max-width">
+				<div class="hero-con">
+					<div class="container">
+						<span></span>
+						Simple. Fast. Reliable
+					</div>
+					
+					<div class="hero-text">
+						<h1>Calculate Anything, <span>Anytime</span>.</h1>
+						
+						<p>A simple and reliable calculator app designed to make everyday calculations quick and easy.</p>
+					</div>
+					
+					<div class="cta-buttons">
+						<a href="app/BasicCalculator.apk" download>Download App</a>
+						<a href="#">View Features</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="features" class="features">
+			<div class="max-width">
+				<div class="features-section">
+					Features
+				</div>
+				
+				<div class="features-con">
+					<h1>Everything You Need. Nothing Extra</h1>
+					
+					<p>Designed to keep calculations simple, fast and easy.</p>
+				</div>
+				
+				<div class="grid-cards">
+					<div class="cards">
+						<div class="card-con">
+							<div class="icon">
+								⚡
+							</div>
+							
+							<div class="card-text">
+								<h3>Fast & Responsive</h3>
+								
+								<p>Get quick results with a smooth and responsive interface designed for everyday calculations. The app responds instantly to your inputs, allowing you to perform calculations without unnecessary delays or complicated steps.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="cards">
+						<div class="card-con">
+							<div class="icon">
+								🎯
+							</div>
+							
+							<div class="card-text">
+								<h3>Accurate Calculations</h3>
+								
+								<p>Perform everyday calculations with reliable and accurate results. Whether you're solving simple arithmetic problems or calculating values for school, work, or personal use, the calculator is designed to make every calculation clear and dependable.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="cards">
+						<div class="card-con">
+							<div class="icon">
+								✨
+							</div>
+							
+							<div class="card-text">
+								<h3>Simple Interface</h3>
+								
+								<p>Enjoy a clean and minimal interface that keeps everything easy to understand and use. Every button and feature is placed with simplicity in mind, so you can focus on your calculations without being distracted by unnecessary elements.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="download" class="download">
+			<div class="max-width">
+				<div class="download-section">
+					Download
+				</div>
+				
+				<div class="download-con">
+					<h1>Ready to Calculate?</h1>
+					
+					<p>Download the calculator app and make everyday calculations easier.</p>
+				</div>
+				
+				<div class="download-button">
+					<div class="img">
+						<img src="images/icon.png">
+					</div>
+					
+					<a href="app/BasicCalculator.apk" class="downloadBtn" download>
+						Download for Android
+					</a>
+					
+					<div class="small-description">
+						<div>
+							Android app
+						</div>
+						
+						<span></span>
+						
+						<div>
+							Free to use
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<div class="max-width">
+				<nav class="footer-navbar">
+					<div class="footer-left">
+						<img src="images/icon.png" alt="Calculator Logo">
+						
+						<div class="footer-text">
+							<h1>Calculator</h1>
+						
+							<p>Simple calculations. Anytime.</p>
+						</div>
+					</div>
+					
+					<div class="footer-links">
+						<ul>
+							<li>
+								<a href="#home">
+									Home
+								</a>
+							</li>
+							
+							<li>
+								<a href="#features">
+									Features
+								</a>
+							</li>
+							
+							<li>
+								<a href="#download">
+									Download
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				
+				<div class="copyright">
+					@ 2026 Calculator. All rights reserved.
+				</div>
+			</div>
+		</footer>
+	</main>
+	
+	<script>
+	const hamburger = document.querySelector('.hamburger');
+	const mobileMenu = document.querySelector('.mobile-menu');
+
+	hamburger.addEventListener('click', () => {
+		mobileMenu.classList.toggle('active');
+	});
+</script>
+</body>
+</html>
